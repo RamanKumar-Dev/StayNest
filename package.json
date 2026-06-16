@@ -1,12 +1,20 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "This ",
+  "description": "StayNest – A full-stack MERN platform for discovering and booking short-term accommodations, featuring user authentication, property listings, image uploads, and responsive design. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Raman Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.7.0"
+  }
 }
