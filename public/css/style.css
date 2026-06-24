@@ -5,8 +5,8 @@ body {
   min-height: 100vh;
 }
 
-.container{
-    flex: 1;
+.container {
+  flex: 1;
 }
 
 .navbar {
@@ -75,32 +75,38 @@ body {
   font-weight: 400px;
 }
 
-.listing-link{
-    text-decoration: none !important;
+.listing-link {
+  text-decoration: none !important;
 }
 
 /* Card Effect */
-.card-img-overlay{
-    opacity: 0;
+.card-img-overlay {
+  opacity: 0;
 }
 
-.card-img-overlay:hover{
-    opacity: 0.15;
-    background-color: white;
+.card-img-overlay:hover {
+  opacity: 0.15;
+  background-color: white;
 }
 
 /* New page */
-.new-btn{
-    background-color: #fe424d !important;
-    border: none !important;
+.new-btn {
+  background-color: #fe424d !important;
+  border: none !important;
 }
 
 /* Show page */
-.show-img{
-    height: 40vh;
+.show-img {
+  height: 40vh;
 }
 
-.btns{
-    display: flex;
-    flex-wrap: wrap;
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* map */
+#map {
+  height: 400px;
+  width: 750px;
 }
